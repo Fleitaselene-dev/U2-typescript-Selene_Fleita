@@ -7,6 +7,8 @@ class Circle implements Shape{
         this.radio = radio
     }
     area(){
-        return Math*PI *(this.radio * this.radio)
+        return Math.PI *(this.radio * this.radio)
     }
 }
+const circle = new Circle(2)
+console.log(circle.area())
